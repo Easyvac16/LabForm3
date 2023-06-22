@@ -64,11 +64,11 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(29, 42);
+            label1.Location = new Point(28, 42);
             label1.Name = "label1";
-            label1.Size = new Size(42, 15);
+            label1.Size = new Size(79, 15);
             label1.TabIndex = 3;
-            label1.Text = "Число";
+            label1.Text = "Число(1-200)";
             // 
             // Form1
             // 

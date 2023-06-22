@@ -16,7 +16,7 @@ namespace LabForm3
         private void PlayGame()
         {
             Random random = new Random();
-            targetNumber = random.Next(1, 200);
+            targetNumber = random.Next(1, 201);
             guessCount = 0;
             MessageBox.Show("Нова гра розпочата!", "Гра \"Вгадай число\"");
         }
@@ -69,7 +69,7 @@ namespace LabForm3
 
         private void PlayAgain()
         {
-            DialogResult result = MessageBox.Show("Бажаєте зіграти ще раз?", "Гра \"Вгадай число\"",MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            DialogResult result = MessageBox.Show("Бажаєте зіграти ще раз?", "Гра \"Вгадай число\"", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
 
             if (result == DialogResult.Yes)
             {
