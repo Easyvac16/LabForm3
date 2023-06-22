@@ -51,10 +51,16 @@ namespace LabForm3
             }
         }
 
+
+
+
         private void EndGame()
         {
             MessageBox.Show("Гра завершена. Загадане число: " + targetNumber, "Гра \"Вгадай число\"");
         }
+
+
+
 
         private void button2_Click(object sender, EventArgs e)
         {
